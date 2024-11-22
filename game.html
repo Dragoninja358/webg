@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play My Game</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            margin: 0;
+            padding: 0;
+            background-color: #001f3f; /* Very dark blue */
+            color: white;
+            text-align: center;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+        }
+
+        nav a {
+            color: #ffdf00; /* Light color for contrast */
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        
+        .game-container {
+            margin: 2em auto;
+            padding: 1em;
+            border: 2px solid #00ffff; /* Sky blue/turquoise border */
+            border-radius: 10px;
+            background-color: #00264d; /* Slightly different dark blue */
+            width: 90%;
+            height: 80vh; /* Makes the game fill most of the viewport height */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Play My Game</h1>
+        <nav>
+            <a href="index.html">Home</a> | <a href="game.html">Game</a>
+        </nav>
+    </header>
+    <div class="game-container">
+        <iframe src="game/index.html" width="100%" height="100%" frameBorder="0"></iframe>
+    </div>
+</body>
+</html>
